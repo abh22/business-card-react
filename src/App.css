@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+ height:670px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top:20px;
+  padding-top: 20px;
+	background-color: #16171d;
+	border-radius: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+img {
+	width: 40px;
+  height: 35px;
+	
+}
+button {
+	width: 115px;
+	height: 100%;
+	border-radius: 6px;
+	border: none;
+	line-height: 35px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 500;
+	padding: 0;
+  background-color: white;
+
+}
+.iconbtn{
+  padding-right: 10px;
+	border-radius: 0;
+	vertical-align: middle;
+	margin: 0px 0px 4px 0px;
+}
+.footer{
+ margin-bottom: 0;
+ margin-top:50px;
+ position: relative;
+ left: 0;
+ bottom: 0;
+    background-color: #161619;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+.footer > img {
+	margin: 15px ;
+
+
+}
+.mypic{
+ width: 250px;
+ height:200px;
+ margin: 0;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ align-self: stretch;
+ padding: 0;
+}
+.about,
+.interests {
+	width: 250px;
+	margin: 0 auto;
+	text-align: left;
+}
+p,h3{
+  font-size: 15px;
+	color: white;
+	text-align: left;
+	margin: 15;
+}
+.info{
+  line-height: 2px;
+  font-weight: 100;
+}
+.info h3{
+  color: rgb(249, 181, 54);
+  text-align: center;
+  font-size: 15px;
+}
+h2,h6{
+  color: white;
+  text-align: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
